@@ -74,7 +74,7 @@
             this.dgvLumberType.MultiSelect = false;
             this.dgvLumberType.Name = "dgvLumberType";
             this.dgvLumberType.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLumberType.Size = new System.Drawing.Size(1023, 526);
+            this.dgvLumberType.Size = new System.Drawing.Size(1106, 526);
             this.dgvLumberType.TabIndex = 1;
             // 
             // groupBox1
@@ -292,7 +292,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1047, 742);
+            this.ClientSize = new System.Drawing.Size(1130, 742);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.btnPriceHistory);
             this.Controls.Add(this.groupBox1);

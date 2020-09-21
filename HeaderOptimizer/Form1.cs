@@ -42,8 +42,8 @@ namespace CCDLumberTypeEditor
         }
 
         private string sqlForGrid = "select lt.lumbercode, ltrim(rtrim(lt.description)), lt.thicknessn, lt.Widthn, lt.grade, lt.length, lt.species, lt.treated, lt.stocked, lt.useasstud," +
-                                    " CONVERT(MONEY, lumberprices2.Price, 0) 'Price', CONVERT(MONEY, lumberprices2.FOBMillPrice, 0) 'FobMill', CONVERT(MONEY,  lumberprices2.Freight, 0) 'Freight' from lumbertype lt cross apply " +
-                                    "( select top 1 (LumberPrices.Price* lumberprices.Factor) 'Price', Lumberprices.FOBMillPrice, Lumberprices.Freight from LumberPrices where LumberPrices.LumberCode = lt.LumberCode order by LumberPrices.PriceDate desc) LumberPrices2";
+                                    " CONVERT(MONEY, lumberprices2.Price, 0) 'Price', lumberprices2.pricedate 'Price Date', CONVERT(MONEY, lumberprices2.FOBMillPrice, 0) 'FobMill', CONVERT(MONEY,  lumberprices2.Freight, 0) 'Freight' from lumbertype lt cross apply " +
+                                    "( select top 1 (LumberPrices.Price* lumberprices.Factor) 'Price', Lumberprices.PriceDate, Lumberprices.FOBMillPrice, Lumberprices.Freight from LumberPrices where LumberPrices.LumberCode = lt.LumberCode order by LumberPrices.PriceDate desc) LumberPrices2";
         private bool loadingCombos = true;
 
         private void btnOptimize_Click(object sender, EventArgs e)
@@ -53,8 +53,6 @@ namespace CCDLumberTypeEditor
             if (dgvLumberType.SelectedRows.Count > 0)
             {
                 clearSpanLumber = dgvLumberType.Rows[dgvLumberType.SelectedRows[0].Index].Cells[0].Value.ToString().Trim();
-
-
                 frmEditFields frmEF = new frmEditFields();
                 frmEF.lumberCode = clearSpanLumber;
                 frmEF.ShowDialog();
@@ -196,10 +194,12 @@ namespace CCDLumberTypeEditor
             dgvLumberType.Columns[9].HeaderText = "Use As Stud";
             dgvLumberType.Columns[10].HeaderText = "Price";
             dgvLumberType.Columns[10].DefaultCellStyle.Format = "C2";
-            dgvLumberType.Columns[11].HeaderText = "FOB Mill";
-            dgvLumberType.Columns[11].DefaultCellStyle.Format = "C2";
-            dgvLumberType.Columns[12].HeaderText = "Freight";
+            dgvLumberType.Columns[11].HeaderText = "Price Date";
+            dgvLumberType.Columns[11].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgvLumberType.Columns[12].HeaderText = "FOB Mill";
             dgvLumberType.Columns[12].DefaultCellStyle.Format = "C2";
+            dgvLumberType.Columns[13].HeaderText = "Freight";
+            dgvLumberType.Columns[13].DefaultCellStyle.Format = "C2";
 
             dgvLumberType.EditMode = DataGridViewEditMode.EditProgrammatically;
         }
@@ -416,6 +416,7 @@ namespace CCDLumberTypeEditor
                 string columnNames = "";
                 string[] output = new string[dgvLumberType.RowCount + 1];
 
+                columnNames += "Lumber Code" + ",";
                 columnNames += "Description" + ",";
                 columnNames += "Depth" + ",";
                 columnNames += "Width" + ",";
@@ -426,6 +427,7 @@ namespace CCDLumberTypeEditor
                 columnNames += "Stocked" + ",";
                 columnNames += "Use As Stud" + ",";
                 columnNames += "Price" + ",";
+                columnNames += "Price Date  " + ",";
                 columnNames += "FOB Mill" + ",";
                 columnNames += "Freight" + ",";
 

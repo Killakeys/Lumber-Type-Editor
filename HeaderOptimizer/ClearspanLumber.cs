@@ -205,7 +205,7 @@ namespace CCDLumberTypeEditor
             DataSet myDataset = new DataSet();
             string sql;
 
-            sql = "Select * from lumberprices where lumbercode = '" + _lumberCode + "' and pricedate <= '" + _inquiryDate + "'";
+            sql = "Select * from lumberprices where lumbercode = '" + _lumberCode + "' and pricedate <= '" + _inquiryDate + "' order by pricedate desc";
 
             myDataset = CCDAccess.SelectFromDB(sql);
 

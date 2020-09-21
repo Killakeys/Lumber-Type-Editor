@@ -70,7 +70,7 @@
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(99, 127);
+            this.txtPrice.Location = new System.Drawing.Point(149, 127);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(58, 20);
             this.txtPrice.TabIndex = 4;
@@ -82,7 +82,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Current Price";
+            this.label2.Text = "Current FOB Mill Price";
             // 
             // btnUpdate
             // 
@@ -97,7 +97,7 @@
             // lblCurrentPrice
             // 
             this.lblCurrentPrice.AutoSize = true;
-            this.lblCurrentPrice.Location = new System.Drawing.Point(96, 102);
+            this.lblCurrentPrice.Location = new System.Drawing.Point(146, 102);
             this.lblCurrentPrice.Name = "lblCurrentPrice";
             this.lblCurrentPrice.Size = new System.Drawing.Size(68, 13);
             this.lblCurrentPrice.TabIndex = 7;
