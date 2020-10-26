@@ -69,7 +69,7 @@ namespace CCDLumberTypeEditor
                 this.ActiveControl = txtUserName;
             }
             lblMessage.Text = "";
-            txtPassWord.Text = "zx9r";
+            txtPassWord.Text = "";
         }
 
         private void txtPassWord_KeyDown(object sender, KeyEventArgs e)
