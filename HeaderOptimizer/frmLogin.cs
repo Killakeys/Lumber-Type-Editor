@@ -70,6 +70,10 @@ namespace CCDLumberTypeEditor
             }
             lblMessage.Text = "";
             txtPassWord.Text = "";
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                txtPassWord.Text = "zx9r";
+            }
         }
 
         private void txtPassWord_KeyDown(object sender, KeyEventArgs e)

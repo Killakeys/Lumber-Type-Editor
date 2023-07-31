@@ -1,0 +1,21 @@
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCDLumberTypeEditor.frmEditLumber.resources
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCD Lumber Type Editor.csproj.GenerateResource.Cache
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\UnitClassLibrary.dll
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCDLumberTypeEditor.frmEditFields.resources
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\Lumber Type Editor.exe.config
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\Lumber Type Editor.exe.manifest
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\Lumber Type Editor.application
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\Lumber Type Editor.exe
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\Lumber Type Editor.pdb
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCDLumberTypeEditor.frmPriceHistory.resources
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCDLumberTypeEditor.Properties.Resources.resources
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\Lumber Type Editor.exe.manifest
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\Lumber Type Editor.application
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\Lumber Type Editor.exe
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\Lumber Type Editor.pdb
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCDLumberTypeEditor.frmLogin.resources
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\Newtonsoft.Json.dll
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\Newtonsoft.Json.xml
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCD Lumber Type Editor.csprojAssemblyReference.cache
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCD Lumber Type Editor.csproj.CopyComplete
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\CCD Lumber Type Editor.csproj.CoreCompileInputs.cache

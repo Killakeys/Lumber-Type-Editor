@@ -1,0 +1,25 @@
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.csprojResolveAssemblyReference.cache
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.Form1.resources
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.Properties.Resources.resources
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.csproj.GenerateResource.Cache
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\HeaderOptimizer.exe.config
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\HeaderOptimizer.exe
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\HeaderOptimizer.pdb
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.exe
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.pdb
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\CutGLib.dll
+C:\Users\SteveW\Documents\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\UnitClassLibrary.dll
+I:\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\HeaderOptimizer.exe.config
+I:\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\HeaderOptimizer.exe
+I:\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\HeaderOptimizer.pdb
+I:\Source\HeaderOptimizer\HeaderOptimizer\bin\Debug\UnitClassLibrary.dll
+I:\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.Form1.resources
+I:\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.Properties.Resources.resources
+I:\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.csproj.GenerateResource.Cache
+I:\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.csproj.CoreCompileInputs.cache
+I:\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.exe
+I:\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.pdb
+I:\Source\HeaderOptimizer\HeaderOptimizer\obj\Debug\HeaderOptimizer.csprojResolveAssemblyReference.cache
+I:\Source\Lumber Type Editor\HeaderOptimizer\bin\Debug\HeaderOptimizer.exe.config
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\HeaderOptimizer.exe
+I:\Source\Lumber Type Editor\HeaderOptimizer\obj\Debug\HeaderOptimizer.pdb

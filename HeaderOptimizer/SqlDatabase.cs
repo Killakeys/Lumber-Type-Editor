@@ -16,7 +16,7 @@ namespace CCDLumberTypeEditor
         public static DataSet SelectFromDB(string Sql)
         {
             DataSet functionReturnValue = default(DataSet);
-            SqlConnection myConnection = new SqlConnection("Data Source=hercules\\clearspan; Initial Catalog=Central;User Id=sa;Password=dog");
+            SqlConnection myConnection = new SqlConnection("Data Source=10.0.0.14\\clearspan; Initial Catalog=Central;User Id=sa;Password=dog");
             //Dim myConnection As SqlConnection = New SqlConnection("Data Source=SJW4300\sqlexpress; Initial Catalog=Alply;User Id=tcawthorn;Password=panel")
             SqlDataAdapter myDataAdaptor = new SqlDataAdapter(Sql, myConnection);
             //Dim myCommand As SqlCommand = New SqlCommand(Sql, myConnection)
@@ -42,7 +42,7 @@ namespace CCDLumberTypeEditor
         public static bool UpdateDB(string Sql)
         {
 
-            SqlConnection myConnection = new SqlConnection("Data Source=hercules\\clearspan; Initial Catalog=Central;User Id=sa;Password=dog");
+            SqlConnection myConnection = new SqlConnection("Data Source=10.0.0.14\\clearspan; Initial Catalog=Central;User Id=sa;Password=dog");
 
             SqlCommand myCommand = default(SqlCommand);
             int ra = 0;
