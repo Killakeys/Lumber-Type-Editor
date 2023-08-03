@@ -62,7 +62,7 @@ namespace CCDLumberTypeEditor
             dtpUsedEnd.Value = DateTime.Now;
             FilterInventoryGrid();
         }
-        #region Buttons
+        #region LumberButtons
         private void btnOptimize_Click(object sender, EventArgs e)
         {
             string clearSpanLumber = "";
@@ -71,7 +71,7 @@ namespace CCDLumberTypeEditor
             {
                 clearSpanLumber = dgvLumberType.Rows[dgvLumberType.SelectedRows[0].Index].Cells[0].Value.ToString().Trim();
                 frmEditFields frmEF = new frmEditFields();
-                frmEF.lumberCode = clearSpanLumber;
+                frmEF.materialCode = clearSpanLumber;
                 frmEF.ShowDialog();
                 FilterTypeGrid();
 
@@ -212,8 +212,36 @@ namespace CCDLumberTypeEditor
                 System.IO.File.WriteAllLines(sfd.FileName, output, System.Text.Encoding.UTF8);
             }
         }
-        #endregion Buttons
+        #endregion LumberButtons
+        #region SheathingButtons
+        private void btnEditSheathing_Click(object sender, EventArgs e)
+        {
+            string clearSpanSheathing = "";
 
+            if (dgvLumberType.SelectedRows.Count > 0)
+            {
+                clearSpanSheathing = dgvSheathingType.Rows[dgvSheathingType.SelectedRows[0].Index].Cells[0].Value.ToString().Trim();
+                frmEditFields frmEF = new frmEditFields();
+                
+                frmEF.materialCode = clearSpanSheathing;
+                frmEF.isLumberEdit = true;
+                frmEF.ShowDialog();
+                FilterTypeGrid();
+
+                //dgvLumberType.SelectedRows.Clear();
+                foreach (DataGridViewRow row in dgvLumberType.Rows)
+                {
+                    var cells = row.Cells;
+                    if (cells[0].Value.ToString().Trim() == clearSpanSheathing)
+                    {
+                        row.Selected = true;
+                    }
+                }
+
+                dgvLumberType.FirstDisplayedScrollingRowIndex = dgvLumberType.SelectedRows[0].Index;
+            }
+        }
+        #endregion SheathingButtons
         #region PopulateGrids
         private void PopulateLumberTypeGrid(string sqlPopulate)
         {
@@ -771,5 +799,7 @@ namespace CCDLumberTypeEditor
         {
             FilterInventoryGrid();
         }
+
+        
     }
 }

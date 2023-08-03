@@ -12,7 +12,8 @@ namespace CCDLumberTypeEditor
 {
     public partial class frmEditFields : Form
     {
-        public string lumberCode { get; set; }
+        public string materialCode { get; set; }
+        public bool isLumberEdit { get; set; }
         private ClearspanLumber clearSpanLumber;
         public frmEditFields()
         {
@@ -21,7 +22,7 @@ namespace CCDLumberTypeEditor
 
         private void frmEditFields_Load(object sender, EventArgs e)
         {
-            clearSpanLumber = new ClearspanLumber(lumberCode);
+            clearSpanLumber = new ClearspanLumber(materialCode);
 
             lblLumberDescription.Text = clearSpanLumber.Description;
 
